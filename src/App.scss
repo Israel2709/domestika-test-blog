@@ -1,0 +1,35 @@
+$default-gray:  #ededed;
+$dom-black:     #161616;
+
+.bg-{
+    &default-gray{
+        background-color:$default-gray;
+    }
+    &dom-black{
+        background-color:$dom-black;
+    }
+}
+
+.hero{
+    height:30vh;
+    background-image:url("https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_429,q_auto,w_991/v1611591695/home-hero-covers/es/000/000/070/70-original.png?1611591695");
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+}
+
+@media only screen and (min-width: 768px){
+    .post-content{
+        .slider-wrapper{
+            width:calc(50% - 1rem);
+            margin-right:1rem;
+        }
+        .floating-text{
+            width:50%;
+        }
+    }
+}
+

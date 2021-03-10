@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.bg-default-gray {
+  background-color: #ededed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-dom-black {
+  background-color: #161616;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero {
+  height: 30vh;
+  background-image: url("https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_429,q_auto,w_991/v1611591695/home-hero-covers/es/000/000/070/70-original.png?1611591695");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 768px) {
+  .post-content .slider-wrapper {
+    width: calc(50% - 1rem);
+    margin-right: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+  .post-content .floating-text {
+    width: 50%;
   }
 }
+/*# sourceMappingURL=App.css.map */
